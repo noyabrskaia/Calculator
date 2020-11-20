@@ -7,13 +7,15 @@
   <title>Calculator</title>
 </head>
 <body>
+    
  <div class="calc">
    <form class="form" name="form">
     <input class="output">
    </form>  
     <table>
       <tr>
-       <input class="button ac btnColor" type="button" value="AC" onclick="clean()"></td>
+        <td colspan="2"><input class="button ac btnColor" type="button" value="AC" onclick="clean()"></td>
+        <td colspan="2"><input class="larr button btnColor" type="button" value="←" onclick="back()"></td>
      </tr>
       <tr>
         <td><input class="button btnColor" type="button" value="*" onclick="insert('*')"></td>

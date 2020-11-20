@@ -44,8 +44,12 @@ body {
   width: 80px;
 }
 
+.larr {
+  width: 175px;
+}
+
 .ac {
-  width: 357px;
+  width: 175px;
 }
 
 .btnColor {
